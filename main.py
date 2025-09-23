@@ -85,4 +85,39 @@ button9 = Button(frame,text="9",width=4,height=3,command= lambda:button_pressing
 button9.grid(column=2,row=2)
 
 
+
+
+button0 = Button(frame, text=0, height=4, width=3,command=lambda: button_pressing(0))
+button0.grid(row=3, column=0)
+
+
+plus = Button(frame, text='+', height=4, width=3,command=lambda: button_pressing('+'))
+plus.grid(row=0, column=3)
+
+
+minus = Button(frame, text='-', height=4, width=3,command=lambda: button_pressing('-'))
+minus.grid(row=1, column=3)
+
+  
+multiply = Button(frame, text='*', height=4, width=3,command=lambda: button_pressing('*'))
+multiply.grid(row=2, column=3)
+
+  
+divide = Button(frame, text='/', height=4, width=3,command=lambda: button_pressing('/'))
+divide.grid(row=3, column=3)
+
+
+equal = Button(frame, text='=', height=4, width=3,command=equals)
+equal.grid(row=3, column=2)
+
+
+decimal = Button(frame, text='.', height=4, width=3,command=lambda: button_pressing('.'))
+decimal.grid(row=3, column=1)
+
+  
+
+clear = Button(window, text='clear', height=4, width=12,command=clear)
+clear.pack()
+
+
 window.mainloop()
