@@ -54,19 +54,13 @@ def equals ():
 window = Tk()
 
 window.title("calculator")
-
-window.geometry("400x400")
-
 window.config(bg="black")
-
 
 
 #label
 equation_label = StringVar()
-
-label = Label(window, textvariable= equation_label, bg="gray", width=35, height=2)
-
-label.pack()
+label = Label(window, textvariable=equation_label, bg="gray", height=2,bd=3,relief="ridge")
+label.pack(side="top",fill="x", expand=True)
 
 
 #frame
@@ -145,8 +139,7 @@ decimal.grid(row=3, column=1)
 
   
 
-clear = Button(window, text='clear', height=4, width=12,command=clear)
-clear.pack()
-
+clear_screan = Button(frame, text='clear', height=4, width=12,command=clear)
+clear_screan.grid(row=4, column=0)
 
 window.mainloop()
