@@ -8,6 +8,11 @@ This is a basic calculator application built with Python's Tkinter library. It s
 - Supports basic arithmetic operations
 - Handles syntax and arithmetic errors gracefully
 
+## Screenshot
+
+![Calculator Screenshot](c1.png)
+
+
 ## Requirements
 
 - Python 3.x
