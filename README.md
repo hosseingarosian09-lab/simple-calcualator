@@ -30,3 +30,11 @@ pip install tk
     python main.py
     ```
 
+## Reference
+
+The calculator logic and Tkinter concepts are based on [Bro Code's YouTube tutorials](https://www.youtube.com/@BroCodez).  
+Special thanks to Bro Code for teaching Tkinter!
+
+---
+
+Feel free to modify and improve the calculator!
