@@ -95,7 +95,7 @@ equal.grid(row=3, column=2, sticky="nsew")
 decimal = Button(frame, text='.', height=4, font=("Arial", 16), bg="#E6E263", border=2, relief="groove", width=3, command=lambda: button_pressing('.'))
 decimal.grid(row=3, column=1, sticky="nsew")
 
-clear_screen = Button(frame, text='clear', height=4, font=("Arial", 16), bg="#E8DCC6", border=2, relief="groove", width=12, command=clear)
+clear_screen = Button(frame, text='clear', height=4, font=("Arial", 16), bg="#E8DCC6", border=2, relief="groove", width=12, command=clear_screen)
 clear_screen.grid(row=4, column=0, columnspan=4, sticky="nsew")
 
 window.mainloop()
